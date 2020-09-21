@@ -20,9 +20,10 @@ TODO: Add long description of the pod here.
   s.author           = { 'wannagohome' => 'iwwuf7@gmail.com' }
   s.source           = { :git => 'https://github.com/wannagohome/RxKakao-pod-test.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_versions = '5.0'
 
   s.source_files = 'RxKakao-pod-test/Classes/**/*'
   s.frameworks = 'UIKit'
-   s.dependency 'RxKakaoSDK'
+  s.dependency 'RxKakaoSDK', '~> 2.0.0'
 end
