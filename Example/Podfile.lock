@@ -1,0 +1,16 @@
+PODS:
+  - RxKakao-pod-test (0.1.0)
+
+DEPENDENCIES:
+  - RxKakao-pod-test (from `../`)
+
+EXTERNAL SOURCES:
+  RxKakao-pod-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxKakao-pod-test: 837d1752d8e7c96d73db4e4571bd8b0a215bd8c4
+
+PODFILE CHECKSUM: 061e7d53718e31a74be7e010e9440dd254f2efab
+
+COCOAPODS: 1.8.4

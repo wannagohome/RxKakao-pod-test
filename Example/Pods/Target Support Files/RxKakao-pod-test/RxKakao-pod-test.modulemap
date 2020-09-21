@@ -1,0 +1,6 @@
+framework module RxKakao_pod_test {
+  umbrella header "RxKakao-pod-test-umbrella.h"
+
+  export *
+  module * { export * }
+}
