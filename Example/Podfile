@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RxKakao-pod-test_Tests' do
+  pod 'RxKakao-pod-test', :path => '../'
+  
+  
+end
